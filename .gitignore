@@ -1,0 +1,15 @@
+# Workspace files
+candidatospresidenciaredescol.code-workspace
+GEMINI.md
+
+# System/Temp files
+.tmp/
+.vscode/
+.env
+execution/secrets_template.env
+__pycache__/
+*.pyc
+
+# Data (if you want to keep data.json tracked don't add it here, 
+# but for now we keep it tracked as it's the database for the web)
+# data.json
