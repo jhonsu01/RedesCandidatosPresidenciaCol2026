@@ -1,0 +1,32 @@
+[
+  {
+    "id": "vicky-davila",
+    "name": "Vicky Dávila",
+    "sector": "Derecha",
+    "socials": { "instagram": "vickydavilah", "tiktok": "vickydavilah", "facebook": "VickyDavilaH" },
+    "followers": { "instagram": 1200000, "tiktok": 600000, "facebook": 2000000, "total": 3800000 },
+    "last_update": "2026-01-18",
+    "trend": "equal",
+    "last_days_growth": 0
+  },
+  {
+    "id": "claudia-lopez",
+    "name": "Claudia López",
+    "sector": "Centro",
+    "socials": { "instagram": "claudialopezcl", "tiktok": "claudialopezcl", "facebook": "ClaudiaLopez" },
+    "followers": { "instagram": 1200000, "tiktok": 300000, "facebook": 1500000, "total": 3000000 },
+    "last_update": "2026-01-18",
+    "trend": "equal",
+    "last_days_growth": 0
+  },
+  {
+    "id": "daniel-quintero",
+    "name": "Daniel Quintero",
+    "sector": "Izquierda",
+    "socials": { "instagram": "quinterocalle", "tiktok": "quinterocalle", "facebook": "diariolarepublica" },
+    "followers": { "instagram": 780000, "tiktok": 450000, "facebook": 600000, "total": 1830000 },
+    "last_update": "2026-01-18",
+    "trend": "equal",
+    "last_days_growth": 0
+  }
+]
