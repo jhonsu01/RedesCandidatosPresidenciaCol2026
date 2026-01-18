@@ -6,8 +6,8 @@
     "socials": { "instagram": "vickydavilah", "tiktok": "vickydavilah", "facebook": "VickyDavilaH" },
     "followers": { "instagram": 1200000, "tiktok": 600000, "facebook": 2000000, "total": 3800000 },
     "last_update": "2026-01-18",
-    "trend": "equal",
-    "last_days_growth": 0
+    "trend": "up",
+    "last_days_growth": 12500
   },
   {
     "id": "claudia-lopez",
@@ -25,6 +25,176 @@
     "sector": "Izquierda",
     "socials": { "instagram": "quinterocalle", "tiktok": "quinterocalle", "facebook": "diariolarepublica" },
     "followers": { "instagram": 780000, "tiktok": 450000, "facebook": 600000, "total": 1830000 },
+    "last_update": "2026-01-18",
+    "trend": "up",
+    "last_days_growth": 5400
+  },
+  {
+    "id": "maria-fernanda-cabal",
+    "name": "María Fernanda Cabal",
+    "sector": "Derecha",
+    "socials": { "instagram": "mariafernandacabal", "tiktok": "mariafernandacabal", "facebook": "MariaFernandaCabal" },
+    "followers": { "instagram": 500000, "tiktok": 200000, "facebook": 600000, "total": 1300000 },
+    "last_update": "2026-01-18",
+    "trend": "equal",
+    "last_days_growth": 0
+  },
+  {
+    "id": "camilo-romero",
+    "name": "Camilo Romero",
+    "sector": "Izquierda",
+    "socials": { "instagram": "camiloromero", "tiktok": "camiloromeroc", "facebook": "CamiloRomero" },
+    "followers": { "instagram": 350000, "tiktok": 120000, "facebook": 450000, "total": 920000 },
+    "last_update": "2026-01-18",
+    "trend": "equal",
+    "last_days_growth": 0
+  },
+  {
+    "id": "sergio-fajardo",
+    "name": "Sergio Fajardo",
+    "sector": "Centro",
+    "socials": { "instagram": "sergiofajardovalderrama", "tiktok": "sergiofajardov", "facebook": "SergioFajardoV" },
+    "followers": { "instagram": 400000, "tiktok": 50000, "facebook": 1100000, "total": 1550000 },
+    "last_update": "2026-01-18",
+    "trend": "down",
+    "last_days_growth": 1200
+  },
+  {
+    "id": "juan-daniel-oviedo",
+    "name": "Juan Daniel Oviedo",
+    "sector": "Centro",
+    "socials": { "instagram": "jdoviedoa", "tiktok": "jdoviedoa", "facebook": "" },
+    "followers": { "instagram": 280000, "tiktok": 150000, "facebook": 10000, "total": 440000 },
+    "last_update": "2026-01-18",
+    "trend": "up",
+    "last_days_growth": 2100
+  },
+  {
+    "id": "enrique-penalosa",
+    "name": "Enrique Peñalosa",
+    "sector": "Derecha",
+    "socials": { "instagram": "enriquepenalosal", "tiktok": "enriquepenalosa", "facebook": "EnriquePenalosa" },
+    "followers": { "instagram": 180000, "tiktok": 40000, "facebook": 400000, "total": 620000 },
+    "last_update": "2026-01-18",
+    "trend": "equal",
+    "last_days_growth": 0
+  },
+  {
+    "id": "abelardo-de-la-espriella",
+    "name": "Abelardo de la Espriella",
+    "sector": "Derecha",
+    "socials": { "instagram": "abelardodelaespriella", "tiktok": "", "facebook": "" },
+    "followers": { "instagram": 850000, "tiktok": 0, "facebook": 0, "total": 850000 },
+    "last_update": "2026-01-18",
+    "trend": "up",
+    "last_days_growth": 500
+  },
+  {
+    "id": "paloma-valencia",
+    "name": "Paloma Valencia",
+    "sector": "Derecha",
+    "socials": { "instagram": "palomavalencial", "tiktok": "palomavalencial", "facebook": "" },
+    "followers": { "instagram": 200000, "tiktok": 100000, "facebook": 300000, "total": 600000 },
+    "last_update": "2026-01-18",
+    "trend": "equal",
+    "last_days_growth": 0
+  },
+  {
+    "id": "david-luna",
+    "name": "David Luna",
+    "sector": "Derecha",
+    "socials": { "instagram": "davidlunasanchez", "tiktok": "davidlunasanchez", "facebook": "DavidLunaSanchez" },
+    "followers": { "instagram": 150000, "tiktok": 80000, "facebook": 220000, "total": 450000 },
+    "last_update": "2026-01-18",
+    "trend": "up",
+    "last_days_growth": 800
+  },
+  {
+    "id": "anibal-gaviria",
+    "name": "Aníbal Gaviria",
+    "sector": "Centro",
+    "socials": { "instagram": "anibalgaviria", "tiktok": "", "facebook": "AnibalGaviriaC" },
+    "followers": { "instagram": 120000, "tiktok": 0, "facebook": 350000, "total": 470000 },
+    "last_update": "2026-01-18",
+    "trend": "equal",
+    "last_days_growth": 0
+  },
+  {
+    "id": "luis-gilberto-murillo",
+    "name": "Luis Gilberto Murillo",
+    "sector": "Izquierda",
+    "socials": { "instagram": "luisgmurillo", "tiktok": "", "facebook": "LuisGMurillo" },
+    "followers": { "instagram": 50000, "tiktok": 0, "facebook": 100000, "total": 150000 },
+    "last_update": "2026-01-18",
+    "trend": "up",
+    "last_days_growth": 100
+  },
+  {
+    "id": "mauricio-lizcano",
+    "name": "Mauricio Lizcano",
+    "sector": "Izquierda",
+    "socials": { "instagram": "mauriciolizcano", "tiktok": "mauriciolizcano", "facebook": "" },
+    "followers": { "instagram": 80000, "tiktok": 30000, "facebook": 150000, "total": 260000 },
+    "last_update": "2026-01-18",
+    "trend": "equal",
+    "last_days_growth": 0
+  },
+  {
+    "id": "mauricio-cardenas",
+    "name": "Mauricio Cárdenas",
+    "sector": "Derecha",
+    "socials": { "instagram": "mcardenassantamaria", "tiktok": "", "facebook": "" },
+    "followers": { "instagram": 40000, "tiktok": 0, "facebook": 120000, "total": 160000 },
+    "last_update": "2026-01-18",
+    "trend": "equal",
+    "last_days_growth": 0
+  },
+  {
+    "id": "paola-holguin",
+    "name": "Paola Holguín",
+    "sector": "Derecha",
+    "socials": { "instagram": "paolaholguinm", "tiktok": "", "facebook": "PaolaHolguinM" },
+    "followers": { "instagram": 110000, "tiktok": 0, "facebook": 180000, "total": 290000 },
+    "last_update": "2026-01-18",
+    "trend": "down",
+    "last_days_growth": 150
+  },
+  {
+    "id": "maurice-armitage",
+    "name": "Maurice Armitage",
+    "sector": "Centro",
+    "socials": { "instagram": "maurice_armitage", "tiktok": "", "facebook": "" },
+    "followers": { "instagram": 35000, "tiktok": 0, "facebook": 90000, "total": 125000 },
+    "last_update": "2026-01-18",
+    "trend": "equal",
+    "last_days_growth": 0
+  },
+  {
+    "id": "hector-olimpo",
+    "name": "Héctor Olimpo",
+    "sector": "Derecha",
+    "socials": { "instagram": "hectorolimpo", "tiktok": "", "facebook": "" },
+    "followers": { "instagram": 25000, "tiktok": 0, "facebook": 70000, "total": 95000 },
+    "last_update": "2026-01-18",
+    "trend": "equal",
+    "last_days_growth": 0
+  },
+  {
+    "id": "santiago-botero",
+    "name": "Santiago Botero",
+    "sector": "Derecha",
+    "socials": { "instagram": "santiago.botero", "tiktok": "", "facebook": "" },
+    "followers": { "instagram": 10000, "tiktok": 0, "facebook": 5000, "total": 15000 },
+    "last_update": "2026-01-18",
+    "trend": "equal",
+    "last_days_growth": 0
+  },
+  {
+    "id": "felipe-cordoba",
+    "name": "Felipe Córdoba",
+    "sector": "Derecha",
+    "socials": { "instagram": "felipecordobal", "tiktok": "", "facebook": "" },
+    "followers": { "instagram": 12000, "tiktok": 0, "facebook": 8000, "total": 20000 },
     "last_update": "2026-01-18",
     "trend": "equal",
     "last_days_growth": 0
