@@ -50,7 +50,10 @@ document.addEventListener('DOMContentLoaded', () => {
             const trendClass = `trend-${c.trend}`;
             
             card.innerHTML = `
-                <div class="rank">#${i + 1}</div>
+                <div class="photo-container">
+                    <img src="${c.photo || 'https://via.placeholder.com/80?text=Avatar'}" class="candidate-photo" alt="${c.name}">
+                    <div class="candidate-rank">#${i + 1}</div>
+                </div>
                 <div class="candidate-info">
                     <div class="candidate-name">${c.name}</div>
                     <div class="candidate-sector">${c.sector}</div>

@@ -116,26 +116,50 @@ main {
 }
 
 .candidate-card {
-  background: var(--card-bg);
-  backdrop-filter: blur(12px);
-  border: var(--glass-border);
-  border-radius: 16px;
-  padding: 1.5rem;
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
-  transition:
-    transform 0.2s,
-    box-shadow 0.2s;
-  box-shadow: var(--glass-shadow);
+    display: grid;
+    grid-template-columns: auto 1fr auto auto;
+    align-items: center;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease, background 0.3s ease;
 }
 
 .candidate-card:hover {
-  transform: translateY(-2px);
-  box-shadow:
-    0 10px 15px -3px rgba(0, 0, 0, 0.1),
-    0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  border-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.photo-container {
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.candidate-photo {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--accent-blue);
+    background: #222;
+}
+
+.candidate-rank {
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+    background: var(--accent-blue);
+    color: white;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
 }
 
 .rank {
@@ -147,25 +171,18 @@ main {
 }
 
 .candidate-info {
-  flex: 2;
+    display: flex;
+    flex-direction: column;
 }
 
 .candidate-name {
-  font-size: 1.25rem;
-  font-weight: 700;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 700;
 }
 
 .candidate-sector {
-  font-size: 0.875rem;
-  color: var(--text-muted);
-  margin-top: 0.25rem;
-  display: inline-block;
-  padding: 0.15rem 0.5rem;
-  border-radius: 9999px;
-  background: rgba(255, 255, 255, 0.05);
+    font-size: 0.85rem;
+    color: #aaa;
 }
 
 .stats-grid {
