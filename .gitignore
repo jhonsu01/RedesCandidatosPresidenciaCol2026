@@ -12,6 +12,9 @@ execution/secrets_template.env
 __pycache__/
 *.pyc
 
-# Data (if you want to keep data.json tracked don't add it here, 
+# Data (if you want to keep data.json tracked don't add it here,
 # but for now we keep it tracked as it's the database for the web)
 # data.json
+
+# Claude Code
+.claude/
