@@ -51,7 +51,10 @@ document.addEventListener('DOMContentLoaded', () => {
             
             card.innerHTML = `
                 <div class="photo-container">
-                    <img src="${c.photo || 'https://via.placeholder.com/80?text=Avatar'}" class="candidate-photo" alt="${c.name}">
+                    <img src="${c.photo || 'https://via.placeholder.com/80?text=Avatar'}" 
+                         class="candidate-photo" 
+                         alt="${c.name}"
+                         onerror="this.src='https://ui-avatars.com/api/?name=${encodeURIComponent(c.name)}&background=random&color=fff&size=80'">
                     <div class="candidate-rank">#${i + 1}</div>
                 </div>
                 <div class="candidate-info">
