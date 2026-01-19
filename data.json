@@ -218,5 +218,16 @@
     "last_update": "2026-01-18",
     "trend": "equal",
     "last_days_growth": 0
+  },
+  {
+    "id": "santiago-botero",
+    "name": "Santiago Botero",
+    "sector": "Derecha",
+    "photo": "https://www.pares.com.co/wp-content/uploads/2025/08/santiago-botero.jpg",
+    "socials": { "instagram": "santiagobotero", "tiktok": "", "facebook": "SantiagoBoteroOficial" },
+    "followers": { "instagram": 1000, "tiktok": 0, "facebook": 5000, "total": 6000 },
+    "last_update": "2026-01-18",
+    "trend": "up",
+    "last_days_growth": 100
   }
 ]
