@@ -3,11 +3,9 @@ import json
 import os
 import datetime
 import subprocess
+import shutil
 
-# Define Modal Image with dependencies
-image = (
-    modal.Image.debian_slim().apt_install("git").pip_install("requests", "apify-client")
-)
+image = modal.Image.debian_slim().apt_install("git").pip_install("apify-client")
 
 app = modal.App("candidatos-monitor")
 
@@ -29,48 +27,43 @@ def get_apify_client():
 
 def scrape_instagram(client, handle):
     if not client or not handle:
-        return 0, None
+        return 0
     try:
         run_input = {"usernames": [handle]}
         run = client.actor("apify/instagram-profile-scraper").call(run_input=run_input)
         for item in client.dataset(run["defaultDatasetId"]).iterate_items():
-            return item.get("followersCount", 0), item.get("profilePicUrl")
+            return item.get("followersCount", 0)
     except Exception as e:
         print(f"Error Instagram ({handle}): {e}")
-    return 0, None
+    return 0
 
 
 def scrape_tiktok(client, handle):
     if not client or not handle:
-        return 0, None
+        return 0
     try:
         run_input = {"profiles": [handle], "resultsPerPage": 1}
-        run = client.actor("clockworks/tiktok-profile-scraper").call(
-            run_input=run_input
-        )
+        run = client.actor("clockworks/tiktok-profile-scraper").call(run_input=run_input)
         for item in client.dataset(run["defaultDatasetId"]).iterate_items():
             stats = item.get("stats", {})
-            # TikTok usually provides avatarThumb or avatarMedium
-            photo = item.get("authorMeta", {}).get("avatar") or item.get("avatarThumb")
-            return stats.get("followerCount", 0), photo
+            return stats.get("followerCount", 0)
     except Exception as e:
         print(f"Error TikTok ({handle}): {e}")
-    return 0, None
+    return 0
 
 
 def scrape_facebook(client, handle):
     if not client or not handle:
-        return 0, None
+        return 0
     try:
         url = f"https://www.facebook.com/{handle}"
         run_input = {"startUrls": [{"url": url}]}
         run = client.actor("apify/facebook-pages-scraper").call(run_input=run_input)
         for item in client.dataset(run["defaultDatasetId"]).iterate_items():
-            # Facebook actor usually returns profilePic
-            return item.get("likes", 0), item.get("profilePic")
+            return item.get("likes", 0)
     except Exception as e:
         print(f"Error Facebook ({handle}): {e}")
-    return 0, None
+    return 0
 
 
 @app.function(
@@ -80,15 +73,14 @@ def update_candidates_data():
     print(f"--- Iniciando Actualización: {datetime.datetime.now()} ---")
 
     gh_token = os.environ.get("GITHUB_TOKEN")
-
     if not gh_token:
         print("ERROR: GITHUB_TOKEN faltante en secretos.")
         return
 
     if os.path.exists("repo"):
-        subprocess.run(["rm", "-rf", "repo"])
+        shutil.rmtree("repo")
 
-    subprocess.run(["git", "clone", f"https://{gh_token}@{REPO_URL}", "repo"])
+    subprocess.run(["git", "clone", f"https://{gh_token}@{REPO_URL}", "repo"], check=True)
     os.chdir("repo")
 
     if not os.path.exists(DATA_FILENAME):
@@ -99,7 +91,6 @@ def update_candidates_data():
         candidates = json.load(f)
 
     client = get_apify_client()
-    updated_candidates = []
 
     for c in candidates:
         name = c["name"]
@@ -108,80 +99,42 @@ def update_candidates_data():
 
         prev_total = c["followers"].get("total", 0)
 
-        # Guardaremos el primer URL de foto válido que encontremos
-        new_photo = None
-
-        # Instagram
-        ig_count, ig_photo = (
-            scrape_instagram(client, socials.get("instagram"))
-            if socials.get("instagram")
-            else (0, None)
-        )
-        if ig_count == 0:
-            ig_count = c["followers"].get("instagram", 0)
-        if ig_photo:
-            new_photo = ig_photo
-
-        # TikTok
-        tk_count, tk_photo = (
-            scrape_tiktok(client, socials.get("tiktok"))
-            if socials.get("tiktok")
-            else (0, None)
-        )
-        if tk_count == 0:
-            tk_count = c["followers"].get("tiktok", 0)
-        if tk_photo and not new_photo:
-            new_photo = tk_photo
-
-        # Facebook
-        fb_count, fb_photo = (
-            scrape_facebook(client, socials.get("facebook"))
-            if socials.get("facebook")
-            else (0, None)
-        )
-        if fb_count == 0:
-            fb_count = c["followers"].get("facebook", 0)
-        if fb_photo and not new_photo:
-            new_photo = fb_photo
+        ig_count = scrape_instagram(client, socials.get("instagram")) or c["followers"].get("instagram", 0)
+        tk_count = scrape_tiktok(client, socials.get("tiktok")) or c["followers"].get("tiktok", 0)
+        fb_count = scrape_facebook(client, socials.get("facebook")) or c["followers"].get("facebook", 0)
 
         new_total = ig_count + tk_count + fb_count
         diff = new_total - prev_total
 
-        # Actualizar datos
         c["followers"] = {
             "instagram": ig_count,
             "tiktok": tk_count,
             "facebook": fb_count,
             "total": new_total,
         }
-
-        # Actualizar foto si se encontró una nueva
-        if new_photo:
-            c["photo"] = new_photo
-
         c["last_update"] = datetime.datetime.now().strftime("%Y-%m-%d")
         c["trend"] = "up" if diff > 0 else ("down" if diff < 0 else "equal")
         c["last_days_growth"] = abs(diff)
 
-        updated_candidates.append(c)
-
     with open(DATA_FILENAME, "w", encoding="utf-8") as f:
-        json.dump(updated_candidates, f, indent=2, ensure_ascii=False)
+        json.dump(candidates, f, indent=2, ensure_ascii=False)
 
     print("Enviando cambios a GitHub...")
-    subprocess.run(["git", "config", "user.name", "Candidatos Bot"])
-    subprocess.run(["git", "config", "user.email", "bot@candidatos2024.com"])
-    subprocess.run(["git", "add", DATA_FILENAME])
-    subprocess.run(
-        [
-            "git",
-            "commit",
-            "-m",
-            f"chore: auto-update socials and photos {datetime.datetime.now()}",
-        ]
+    subprocess.run(["git", "config", "user.name", "Candidatos Bot"], check=True)
+    subprocess.run(["git", "config", "user.email", "bot@candidatos2026.com"], check=True)
+    subprocess.run(["git", "add", DATA_FILENAME], check=True)
+
+    result = subprocess.run(
+        ["git", "diff", "--cached", "--quiet"],
+        capture_output=True
     )
-    subprocess.run(["git", "push", "origin", "main"])
 
-
-if __name__ == "__main__":
-    pass
+    if result.returncode != 0:
+        subprocess.run([
+            "git", "commit", "-m",
+            f"chore: auto-update followers {datetime.datetime.now().strftime('%Y-%m-%d')}"
+        ], check=True)
+        subprocess.run(["git", "push", "origin", "main"], check=True)
+        print("Cambios enviados exitosamente.")
+    else:
+        print("No hay cambios para enviar.")
