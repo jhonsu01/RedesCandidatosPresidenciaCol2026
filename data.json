@@ -11,15 +11,15 @@
       "x": "VickyDavilaH"
     },
     "followers": {
-      "instagram": 1524718,
+      "instagram": 1524705,
       "tiktok": 600000,
-      "facebook": 1063034,
+      "facebook": 1063111,
       "x": 0,
-      "total": 3187752
+      "total": 3187816
     },
     "last_update": "2026-01-20",
-    "trend": "down",
-    "last_days_growth": 612248
+    "trend": "up",
+    "last_days_growth": 64
   },
   {
     "id": "claudia-lopez",
@@ -33,15 +33,15 @@
       "x": "ClaudiaLopez"
     },
     "followers": {
-      "instagram": 992685,
+      "instagram": 992626,
       "tiktok": 300000,
-      "facebook": 1500000,
+      "facebook": 1328129,
       "x": 0,
-      "total": 2792685
+      "total": 2620755
     },
     "last_update": "2026-01-20",
     "trend": "down",
-    "last_days_growth": 207315
+    "last_days_growth": 171930
   },
   {
     "id": "daniel-quintero",
@@ -55,15 +55,15 @@
       "x": "QuinteroCalle"
     },
     "followers": {
-      "instagram": 370077,
+      "instagram": 370098,
       "tiktok": 450000,
-      "facebook": 600000,
+      "facebook": 809535,
       "x": 0,
-      "total": 1420077
+      "total": 1629633
     },
     "last_update": "2026-01-20",
-    "trend": "down",
-    "last_days_growth": 409923
+    "trend": "up",
+    "last_days_growth": 209556
   },
   {
     "id": "maria-fernanda-cabal",
@@ -77,15 +77,15 @@
       "x": "mariafdacabal"
     },
     "followers": {
-      "instagram": 391898,
+      "instagram": 391922,
       "tiktok": 200000,
-      "facebook": 600000,
+      "facebook": 582384,
       "x": 0,
-      "total": 1191898
+      "total": 1174306
     },
     "last_update": "2026-01-20",
     "trend": "down",
-    "last_days_growth": 108102
+    "last_days_growth": 17592
   },
   {
     "id": "ivan-cepeda",
@@ -99,15 +99,15 @@
       "x": "IvanCepedaCast"
     },
     "followers": {
-      "instagram": 263,
+      "instagram": 284689,
       "tiktok": 50000,
-      "facebook": 468602,
+      "facebook": 469224,
       "x": 0,
-      "total": 518865
+      "total": 803913
     },
     "last_update": "2026-01-20",
-    "trend": "down",
-    "last_days_growth": 131135
+    "trend": "up",
+    "last_days_growth": 285048
   },
   {
     "id": "camilo-romero",
@@ -121,15 +121,15 @@
       "x": "CamiloRomero"
     },
     "followers": {
-      "instagram": 168131,
+      "instagram": 168326,
       "tiktok": 120000,
-      "facebook": 428464,
+      "facebook": 429055,
       "x": 0,
-      "total": 716595
+      "total": 717381
     },
     "last_update": "2026-01-20",
-    "trend": "down",
-    "last_days_growth": 203405
+    "trend": "up",
+    "last_days_growth": 786
   },
   {
     "id": "sergio-fajardo",
@@ -143,15 +143,15 @@
       "x": "sergio_fajardo"
     },
     "followers": {
-      "instagram": 288677,
+      "instagram": 288719,
       "tiktok": 50000,
-      "facebook": 788892,
+      "facebook": 788889,
       "x": 0,
-      "total": 1127569
+      "total": 1127608
     },
     "last_update": "2026-01-20",
-    "trend": "down",
-    "last_days_growth": 422431
+    "trend": "up",
+    "last_days_growth": 39
   },
   {
     "id": "juan-daniel-oviedo",
@@ -165,15 +165,15 @@
       "x": "JDOviedoAr"
     },
     "followers": {
-      "instagram": 18,
+      "instagram": 286100,
       "tiktok": 150000,
-      "facebook": 10000,
+      "facebook": 44105,
       "x": 0,
-      "total": 160018
+      "total": 480205
     },
     "last_update": "2026-01-20",
-    "trend": "down",
-    "last_days_growth": 279982
+    "trend": "up",
+    "last_days_growth": 320187
   },
   {
     "id": "enrique-penalosa",
@@ -187,15 +187,15 @@
       "x": "EnriquePenalosa"
     },
     "followers": {
-      "instagram": 118107,
+      "instagram": 118165,
       "tiktok": 40000,
       "facebook": 400000,
       "x": 0,
-      "total": 558107
+      "total": 558165
     },
     "last_update": "2026-01-20",
-    "trend": "down",
-    "last_days_growth": 61893
+    "trend": "up",
+    "last_days_growth": 58
   },
   {
     "id": "paloma-valencia",
@@ -216,8 +216,8 @@
       "total": 692849
     },
     "last_update": "2026-01-20",
-    "trend": "up",
-    "last_days_growth": 92849
+    "trend": "equal",
+    "last_days_growth": 0
   },
   {
     "id": "david-luna",
@@ -238,8 +238,8 @@
       "total": 300141
     },
     "last_update": "2026-01-20",
-    "trend": "down",
-    "last_days_growth": 149859
+    "trend": "equal",
+    "last_days_growth": 0
   },
   {
     "id": "luis-gilberto-murillo",
@@ -260,8 +260,8 @@
       "total": 100096
     },
     "last_update": "2026-01-20",
-    "trend": "down",
-    "last_days_growth": 49904
+    "trend": "equal",
+    "last_days_growth": 0
   },
   {
     "id": "anibal-gaviria",
@@ -282,8 +282,8 @@
       "total": 350142
     },
     "last_update": "2026-01-20",
-    "trend": "down",
-    "last_days_growth": 119858
+    "trend": "equal",
+    "last_days_growth": 0
   },
   {
     "id": "mauricio-lizcano",
@@ -348,8 +348,8 @@
       "total": 438095
     },
     "last_update": "2026-01-20",
-    "trend": "up",
-    "last_days_growth": 148095
+    "trend": "equal",
+    "last_days_growth": 0
   },
   {
     "id": "maurice-armitage",
@@ -392,8 +392,8 @@
       "total": 117884
     },
     "last_update": "2026-01-20",
-    "trend": "up",
-    "last_days_growth": 22884
+    "trend": "equal",
+    "last_days_growth": 0
   },
   {
     "id": "juan-manuel-galan",
@@ -414,8 +414,8 @@
       "total": 250302
     },
     "last_update": "2026-01-20",
-    "trend": "down",
-    "last_days_growth": 299698
+    "trend": "equal",
+    "last_days_growth": 0
   },
   {
     "id": "carlos-caicedo",
@@ -436,8 +436,8 @@
       "total": 402632
     },
     "last_update": "2026-01-20",
-    "trend": "down",
-    "last_days_growth": 187368
+    "trend": "equal",
+    "last_days_growth": 0
   },
   {
     "id": "santiago-botero",
@@ -458,7 +458,7 @@
       "total": 1183221
     },
     "last_update": "2026-01-20",
-    "trend": "up",
-    "last_days_growth": 1221
+    "trend": "equal",
+    "last_days_growth": 0
   }
 ]
