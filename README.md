@@ -4,7 +4,7 @@ Web App para monitorizar el crecimiento en redes sociales de los candidatos pres
 
 ## Automatización con Modal.com
 
-El script `execution/modal_updater.py` actualiza los datos cada 24 horas.
+El script `execution/modal_updater.py` actualiza los datos semanalmente.
 
 ### Configuración:
 
