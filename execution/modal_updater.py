@@ -103,13 +103,15 @@ def update_candidates_data():
         tk_count = scrape_tiktok(client, socials.get("tiktok")) or c["followers"].get("tiktok", 0)
         fb_count = scrape_facebook(client, socials.get("facebook")) or c["followers"].get("facebook", 0)
 
-        new_total = ig_count + tk_count + fb_count
+        x_count = c["followers"].get("x", 0)
+        new_total = ig_count + tk_count + fb_count + x_count
         diff = new_total - prev_total
 
         c["followers"] = {
             "instagram": ig_count,
             "tiktok": tk_count,
             "facebook": fb_count,
+            "x": x_count,
             "total": new_total,
         }
         c["last_update"] = datetime.datetime.now().strftime("%Y-%m-%d")
