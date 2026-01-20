@@ -4,152 +4,278 @@
     "name": "Vicky Dávila",
     "sector": "Derecha",
     "photo": "https://www.pares.com.co/wp-content/uploads/2025/08/vicky-davila.jpg",
-    "socials": { "instagram": "vickydavilah", "tiktok": "vickydavilah", "facebook": "VickyDavilaH" },
-    "followers": { "instagram": 1200000, "tiktok": 600000, "facebook": 2000000, "total": 3800000 },
-    "last_update": "2026-01-18",
-    "trend": "up",
-    "last_days_growth": 12500
+    "socials": {
+      "instagram": "vickydavilah",
+      "tiktok": "vickydavilah",
+      "facebook": "VickyDavilaH"
+    },
+    "followers": {
+      "instagram": 1524718,
+      "tiktok": 600000,
+      "facebook": 1063034,
+      "total": 3187752
+    },
+    "last_update": "2026-01-20",
+    "trend": "down",
+    "last_days_growth": 612248
   },
   {
     "id": "claudia-lopez",
     "name": "Claudia López",
     "sector": "Centro",
     "photo": "https://www.pares.com.co/wp-content/uploads/2025/08/claudia-lopez.jpg",
-    "socials": { "instagram": "claudialopezcl", "tiktok": "claudialopezcl", "facebook": "ClaudiaLopez" },
-    "followers": { "instagram": 1200000, "tiktok": 300000, "facebook": 1500000, "total": 3000000 },
-    "last_update": "2026-01-18",
-    "trend": "equal",
-    "last_days_growth": 0
+    "socials": {
+      "instagram": "claudialopezcl",
+      "tiktok": "claudialopezcl",
+      "facebook": "ClaudiaLopez"
+    },
+    "followers": {
+      "instagram": 992685,
+      "tiktok": 300000,
+      "facebook": 1500000,
+      "total": 2792685
+    },
+    "last_update": "2026-01-20",
+    "trend": "down",
+    "last_days_growth": 207315
   },
   {
     "id": "daniel-quintero",
     "name": "Daniel Quintero",
     "sector": "Izquierda",
     "photo": "https://www.pares.com.co/wp-content/uploads/2025/08/Daniel-Quintero.jpg",
-    "socials": { "instagram": "quinterocalle", "tiktok": "quinterocalle", "facebook": "diariolarepublica" },
-    "followers": { "instagram": 780000, "tiktok": 450000, "facebook": 600000, "total": 1830000 },
-    "last_update": "2026-01-18",
-    "trend": "up",
-    "last_days_growth": 5400
+    "socials": {
+      "instagram": "quinterocalle",
+      "tiktok": "quinterocalle",
+      "facebook": "diariolarepublica"
+    },
+    "followers": {
+      "instagram": 370077,
+      "tiktok": 450000,
+      "facebook": 600000,
+      "total": 1420077
+    },
+    "last_update": "2026-01-20",
+    "trend": "down",
+    "last_days_growth": 409923
   },
   {
     "id": "maria-fernanda-cabal",
     "name": "María Fernanda Cabal",
     "sector": "Derecha",
     "photo": "https://www.pares.com.co/wp-content/uploads/2025/08/maria-fernanda-caval-.jpg",
-    "socials": { "instagram": "mariafernandacabal", "tiktok": "mariafernandacabal", "facebook": "MariaFernandaCabal" },
-    "followers": { "instagram": 500000, "tiktok": 200000, "facebook": 600000, "total": 1300000 },
-    "last_update": "2026-01-18",
-    "trend": "equal",
-    "last_days_growth": 0
+    "socials": {
+      "instagram": "mariafernandacabal",
+      "tiktok": "mariafernandacabal",
+      "facebook": "MariaFernandaCabal"
+    },
+    "followers": {
+      "instagram": 391898,
+      "tiktok": 200000,
+      "facebook": 600000,
+      "total": 1191898
+    },
+    "last_update": "2026-01-20",
+    "trend": "down",
+    "last_days_growth": 108102
   },
   {
     "id": "ivan-cepeda",
     "name": "Iván Cepeda",
     "sector": "Izquierda",
     "photo": "https://www.pares.com.co/wp-content/uploads/2025/12/ivan-cepeda.jpg",
-    "socials": { "instagram": "ivancepedacastro", "tiktok": "ivancepedacastro", "facebook": "IvanCepedaCastro" },
-    "followers": { "instagram": 200000, "tiktok": 50000, "facebook": 400000, "total": 650000 },
-    "last_update": "2026-01-18",
-    "trend": "up",
-    "last_days_growth": 3000
+    "socials": {
+      "instagram": "ivancepedacastro",
+      "tiktok": "ivancepedacastro",
+      "facebook": "IvanCepedaCastro"
+    },
+    "followers": {
+      "instagram": 263,
+      "tiktok": 50000,
+      "facebook": 468602,
+      "total": 518865
+    },
+    "last_update": "2026-01-20",
+    "trend": "down",
+    "last_days_growth": 131135
   },
   {
     "id": "camilo-romero",
     "name": "Camilo Romero",
     "sector": "Izquierda",
     "photo": "https://www.pares.com.co/wp-content/uploads/2025/08/camilo-romero.jpg",
-    "socials": { "instagram": "camiloromero", "tiktok": "camiloromeroc", "facebook": "CamiloRomero" },
-    "followers": { "instagram": 350000, "tiktok": 120000, "facebook": 450000, "total": 920000 },
-    "last_update": "2026-01-18",
-    "trend": "equal",
-    "last_days_growth": 0
+    "socials": {
+      "instagram": "camiloromero",
+      "tiktok": "camiloromeroc",
+      "facebook": "CamiloRomero"
+    },
+    "followers": {
+      "instagram": 168131,
+      "tiktok": 120000,
+      "facebook": 428464,
+      "total": 716595
+    },
+    "last_update": "2026-01-20",
+    "trend": "down",
+    "last_days_growth": 203405
   },
   {
     "id": "sergio-fajardo",
     "name": "Sergio Fajardo",
     "sector": "Centro",
     "photo": "https://www.pares.com.co/wp-content/uploads/2025/08/fajardo.jpg",
-    "socials": { "instagram": "sergiofajardovalderrama", "tiktok": "sergiofajardov", "facebook": "SergioFajardoV" },
-    "followers": { "instagram": 400000, "tiktok": 50000, "facebook": 1100000, "total": 1550000 },
-    "last_update": "2026-01-18",
+    "socials": {
+      "instagram": "sergiofajardovalderrama",
+      "tiktok": "sergiofajardov",
+      "facebook": "SergioFajardoV"
+    },
+    "followers": {
+      "instagram": 288677,
+      "tiktok": 50000,
+      "facebook": 788892,
+      "total": 1127569
+    },
+    "last_update": "2026-01-20",
     "trend": "down",
-    "last_days_growth": 1200
+    "last_days_growth": 422431
   },
   {
     "id": "juan-daniel-oviedo",
     "name": "Juan Daniel Oviedo",
     "sector": "Centro",
     "photo": "https://www.pares.com.co/wp-content/uploads/2025/08/juan-daniel-oviedo.jpg",
-    "socials": { "instagram": "jdoviedoa", "tiktok": "jdoviedoa", "facebook": "" },
-    "followers": { "instagram": 280000, "tiktok": 150000, "facebook": 10000, "total": 440000 },
-    "last_update": "2026-01-18",
-    "trend": "up",
-    "last_days_growth": 2100
+    "socials": {
+      "instagram": "jdoviedoa",
+      "tiktok": "jdoviedoa",
+      "facebook": ""
+    },
+    "followers": {
+      "instagram": 18,
+      "tiktok": 150000,
+      "facebook": 10000,
+      "total": 160018
+    },
+    "last_update": "2026-01-20",
+    "trend": "down",
+    "last_days_growth": 279982
   },
   {
     "id": "enrique-penalosa",
     "name": "Enrique Peñalosa",
     "sector": "Derecha",
     "photo": "https://www.pares.com.co/wp-content/uploads/2025/08/Enrique-penalosa.jpg",
-    "socials": { "instagram": "enriquepenalosal", "tiktok": "enriquepenalosa", "facebook": "EnriquePenalosa" },
-    "followers": { "instagram": 180000, "tiktok": 40000, "facebook": 400000, "total": 620000 },
-    "last_update": "2026-01-18",
-    "trend": "equal",
-    "last_days_growth": 0
+    "socials": {
+      "instagram": "enriquepenalosal",
+      "tiktok": "enriquepenalosa",
+      "facebook": "EnriquePenalosa"
+    },
+    "followers": {
+      "instagram": 118107,
+      "tiktok": 40000,
+      "facebook": 400000,
+      "total": 558107
+    },
+    "last_update": "2026-01-20",
+    "trend": "down",
+    "last_days_growth": 61893
   },
   {
     "id": "paloma-valencia",
     "name": "Paloma Valencia",
     "sector": "Derecha",
     "photo": "https://www.pares.com.co/wp-content/uploads/2025/08/paloma-valencia.jpg",
-    "socials": { "instagram": "palomavalencial", "tiktok": "palomavalencial", "facebook": "" },
-    "followers": { "instagram": 200000, "tiktok": 100000, "facebook": 300000, "total": 600000 },
-    "last_update": "2026-01-18",
-    "trend": "equal",
-    "last_days_growth": 0
+    "socials": {
+      "instagram": "palomavalencial",
+      "tiktok": "palomavalencial",
+      "facebook": ""
+    },
+    "followers": {
+      "instagram": 292849,
+      "tiktok": 100000,
+      "facebook": 300000,
+      "total": 692849
+    },
+    "last_update": "2026-01-20",
+    "trend": "up",
+    "last_days_growth": 92849
   },
   {
     "id": "david-luna",
     "name": "David Luna",
     "sector": "Derecha",
     "photo": "https://www.pares.com.co/wp-content/uploads/2025/08/david-luna-.jpg",
-    "socials": { "instagram": "davidlunasanchez", "tiktok": "davidlunasanchez", "facebook": "DavidLunaSanchez" },
-    "followers": { "instagram": 150000, "tiktok": 80000, "facebook": 220000, "total": 450000 },
-    "last_update": "2026-01-18",
-    "trend": "up",
-    "last_days_growth": 800
+    "socials": {
+      "instagram": "davidlunasanchez",
+      "tiktok": "davidlunasanchez",
+      "facebook": "DavidLunaSanchez"
+    },
+    "followers": {
+      "instagram": 141,
+      "tiktok": 80000,
+      "facebook": 220000,
+      "total": 300141
+    },
+    "last_update": "2026-01-20",
+    "trend": "down",
+    "last_days_growth": 149859
   },
   {
     "id": "luis-gilberto-murillo",
     "name": "Luis Gilberto Murillo",
     "sector": "Izquierda",
     "photo": "https://www.pares.com.co/wp-content/uploads/2025/08/luis-murillo.jpg",
-    "socials": { "instagram": "luisgmurillo", "tiktok": "", "facebook": "LuisGMurillo" },
-    "followers": { "instagram": 50000, "tiktok": 0, "facebook": 100000, "total": 150000 },
-    "last_update": "2026-01-18",
-    "trend": "up",
-    "last_days_growth": 100
+    "socials": {
+      "instagram": "luisgmurillo",
+      "tiktok": "",
+      "facebook": "LuisGMurillo"
+    },
+    "followers": {
+      "instagram": 96,
+      "tiktok": 0,
+      "facebook": 100000,
+      "total": 100096
+    },
+    "last_update": "2026-01-20",
+    "trend": "down",
+    "last_days_growth": 49904
   },
   {
     "id": "anibal-gaviria",
     "name": "Aníbal Gaviria",
     "sector": "Centro",
     "photo": "https://www.pares.com.co/wp-content/uploads/2025/08/anibal-gaviria.jpg",
-    "socials": { "instagram": "anibalgaviria", "tiktok": "", "facebook": "AnibalGaviriaC" },
-    "followers": { "instagram": 120000, "tiktok": 0, "facebook": 350000, "total": 470000 },
-    "last_update": "2026-01-18",
-    "trend": "equal",
-    "last_days_growth": 0
+    "socials": {
+      "instagram": "anibalgaviria",
+      "tiktok": "",
+      "facebook": "AnibalGaviriaC"
+    },
+    "followers": {
+      "instagram": 142,
+      "tiktok": 0,
+      "facebook": 350000,
+      "total": 350142
+    },
+    "last_update": "2026-01-20",
+    "trend": "down",
+    "last_days_growth": 119858
   },
   {
     "id": "mauricio-lizcano",
     "name": "Mauricio Lizcano",
     "sector": "Izquierda",
     "photo": "https://www.pares.com.co/wp-content/uploads/2025/08/Mauricio-Lizcano.jpg",
-    "socials": { "instagram": "mauriciolizcano", "tiktok": "mauriciolizcano", "facebook": "" },
-    "followers": { "instagram": 80000, "tiktok": 30000, "facebook": 150000, "total": 260000 },
-    "last_update": "2026-01-18",
+    "socials": {
+      "instagram": "mauriciolizcano",
+      "tiktok": "mauriciolizcano",
+      "facebook": ""
+    },
+    "followers": {
+      "instagram": 80000,
+      "tiktok": 30000,
+      "facebook": 150000,
+      "total": 260000
+    },
+    "last_update": "2026-01-20",
     "trend": "equal",
     "last_days_growth": 0
   },
@@ -158,9 +284,18 @@
     "name": "Mauricio Cárdenas",
     "sector": "Derecha",
     "photo": "https://www.pares.com.co/wp-content/uploads/2025/08/mauricio-cardenas-.jpg",
-    "socials": { "instagram": "mcardenassantamaria", "tiktok": "", "facebook": "" },
-    "followers": { "instagram": 40000, "tiktok": 0, "facebook": 120000, "total": 160000 },
-    "last_update": "2026-01-18",
+    "socials": {
+      "instagram": "mcardenassantamaria",
+      "tiktok": "",
+      "facebook": ""
+    },
+    "followers": {
+      "instagram": 40000,
+      "tiktok": 0,
+      "facebook": 120000,
+      "total": 160000
+    },
+    "last_update": "2026-01-20",
     "trend": "equal",
     "last_days_growth": 0
   },
@@ -169,20 +304,38 @@
     "name": "Paola Holguín",
     "sector": "Derecha",
     "photo": "https://www.pares.com.co/wp-content/uploads/2025/08/paola-holguin-.jpg",
-    "socials": { "instagram": "paolaholguinm", "tiktok": "", "facebook": "PaolaHolguinM" },
-    "followers": { "instagram": 110000, "tiktok": 0, "facebook": 180000, "total": 290000 },
-    "last_update": "2026-01-18",
-    "trend": "down",
-    "last_days_growth": 150
+    "socials": {
+      "instagram": "paolaholguinm",
+      "tiktok": "",
+      "facebook": "PaolaHolguinM"
+    },
+    "followers": {
+      "instagram": 183030,
+      "tiktok": 0,
+      "facebook": 255065,
+      "total": 438095
+    },
+    "last_update": "2026-01-20",
+    "trend": "up",
+    "last_days_growth": 148095
   },
   {
     "id": "maurice-armitage",
     "name": "Maurice Armitage",
     "sector": "Centro",
     "photo": "https://www.pares.com.co/wp-content/uploads/2025/08/Norman-Maurice-Armitage.jpg",
-    "socials": { "instagram": "maurice_armitage", "tiktok": "", "facebook": "" },
-    "followers": { "instagram": 35000, "tiktok": 0, "facebook": 90000, "total": 125000 },
-    "last_update": "2026-01-18",
+    "socials": {
+      "instagram": "maurice_armitage",
+      "tiktok": "",
+      "facebook": ""
+    },
+    "followers": {
+      "instagram": 35000,
+      "tiktok": 0,
+      "facebook": 90000,
+      "total": 125000
+    },
+    "last_update": "2026-01-20",
     "trend": "equal",
     "last_days_growth": 0
   },
@@ -191,43 +344,79 @@
     "name": "Héctor Olimpo",
     "sector": "Derecha",
     "photo": "https://www.pares.com.co/wp-content/uploads/2025/08/hector-olimpo-.jpg",
-    "socials": { "instagram": "hectorolimpo", "tiktok": "", "facebook": "" },
-    "followers": { "instagram": 25000, "tiktok": 0, "facebook": 70000, "total": 95000 },
-    "last_update": "2026-01-18",
-    "trend": "equal",
-    "last_days_growth": 0
+    "socials": {
+      "instagram": "hectorolimpo",
+      "tiktok": "",
+      "facebook": ""
+    },
+    "followers": {
+      "instagram": 47884,
+      "tiktok": 0,
+      "facebook": 70000,
+      "total": 117884
+    },
+    "last_update": "2026-01-20",
+    "trend": "up",
+    "last_days_growth": 22884
   },
   {
     "id": "juan-manuel-galan",
     "name": "Juan Manuel Galán",
     "sector": "Centro",
     "photo": "https://www.pares.com.co/wp-content/uploads/2025/08/juan-manuel-galan-.jpg",
-    "socials": { "instagram": "juanmanuelgalan", "tiktok": "juanmanuelgalan", "facebook": "JuanManuelGalan" },
-    "followers": { "instagram": 300000, "tiktok": 50000, "facebook": 200000, "total": 550000 },
-    "last_update": "2026-01-18",
-    "trend": "up",
-    "last_days_growth": 1500
+    "socials": {
+      "instagram": "juanmanuelgalan",
+      "tiktok": "juanmanuelgalan",
+      "facebook": "JuanManuelGalan"
+    },
+    "followers": {
+      "instagram": 302,
+      "tiktok": 50000,
+      "facebook": 200000,
+      "total": 250302
+    },
+    "last_update": "2026-01-20",
+    "trend": "down",
+    "last_days_growth": 299698
   },
   {
     "id": "carlos-caicedo",
     "name": "Carlos Caicedo",
     "sector": "Izquierda",
     "photo": "https://www.pares.com.co/wp-content/uploads/2025/08/carlos-caicedo.jpg",
-    "socials": { "instagram": "carlosecaicedo", "tiktok": "carlosecaicedo", "facebook": "CarlosCaicedo" },
-    "followers": { "instagram": 250000, "tiktok": 40000, "facebook": 300000, "total": 590000 },
-    "last_update": "2026-01-18",
-    "trend": "equal",
-    "last_days_growth": 0
+    "socials": {
+      "instagram": "carlosecaicedo",
+      "tiktok": "carlosecaicedo",
+      "facebook": "CarlosCaicedo"
+    },
+    "followers": {
+      "instagram": 62632,
+      "tiktok": 40000,
+      "facebook": 300000,
+      "total": 402632
+    },
+    "last_update": "2026-01-20",
+    "trend": "down",
+    "last_days_growth": 187368
   },
   {
     "id": "santiago-botero",
     "name": "Santiago Botero",
     "sector": "Derecha",
     "photo": "https://www.pares.com.co/wp-content/uploads/2025/08/santiago-botero-.jpg",
-    "socials": { "instagram": "santiagobotero.jaramillo", "tiktok": "santiagobotero.jaramillo", "facebook": "santiagobotero.jaramillo" },
-    "followers": { "instagram": 227000, "tiktok": 684000, "facebook": 271000, "total": 1182000 },
-    "last_update": "2026-01-18",
+    "socials": {
+      "instagram": "santiagobotero.jaramillo",
+      "tiktok": "santiagobotero.jaramillo",
+      "facebook": "santiagobotero.jaramillo"
+    },
+    "followers": {
+      "instagram": 227081,
+      "tiktok": 684000,
+      "facebook": 272140,
+      "total": 1183221
+    },
+    "last_update": "2026-01-20",
     "trend": "up",
-    "last_days_growth": 100
+    "last_days_growth": 1221
   }
 ]
