@@ -70,10 +70,12 @@ def scrape_x(client, handle):
     if not client or not handle:
         return 0
     try:
-        run_input = {"usernames": [handle]}
+        url = f"https://x.com/{handle}"
+        run_input = {"startUrls": [{"url": url}], "tweetsDesired": 1}
         run = client.actor("apidojo/twitter-profile-scraper").call(run_input=run_input)
         for item in client.dataset(run["defaultDatasetId"]).iterate_items():
-            return item.get("followers", 0) or item.get("followersCount", 0) or item.get("public_metrics", {}).get("followers_count", 0)
+            author = item.get("author", {})
+            return author.get("followers", 0) or author.get("followersCount", 0) or item.get("followers", 0)
     except Exception as e:
         print(f"Error X/Twitter ({handle}): {e}")
     return 0
