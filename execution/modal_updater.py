@@ -66,8 +66,21 @@ def scrape_facebook(client, handle):
     return 0
 
 
+def scrape_x(client, handle):
+    if not client or not handle:
+        return 0
+    try:
+        run_input = {"usernames": [handle]}
+        run = client.actor("apidojo/twitter-profile-scraper").call(run_input=run_input)
+        for item in client.dataset(run["defaultDatasetId"]).iterate_items():
+            return item.get("followers", 0) or item.get("followersCount", 0) or item.get("public_metrics", {}).get("followers_count", 0)
+    except Exception as e:
+        print(f"Error X/Twitter ({handle}): {e}")
+    return 0
+
+
 @app.function(
-    image=image, secrets=[secrets], schedule=modal.Period(weeks=1), timeout=1200
+    image=image, secrets=[secrets], schedule=modal.Period(weeks=1), timeout=3600
 )
 def update_candidates_data():
     print(f"--- Iniciando Actualización: {datetime.datetime.now()} ---")
@@ -102,8 +115,7 @@ def update_candidates_data():
         ig_count = scrape_instagram(client, socials.get("instagram")) or c["followers"].get("instagram", 0)
         tk_count = scrape_tiktok(client, socials.get("tiktok")) or c["followers"].get("tiktok", 0)
         fb_count = scrape_facebook(client, socials.get("facebook")) or c["followers"].get("facebook", 0)
-
-        x_count = c["followers"].get("x", 0)
+        x_count = scrape_x(client, socials.get("x")) or c["followers"].get("x", 0)
         new_total = ig_count + tk_count + fb_count + x_count
         diff = new_total - prev_total
 
