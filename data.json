@@ -460,5 +460,27 @@
     "last_update": "2026-01-20",
     "trend": "equal",
     "last_days_growth": 0
+  },
+  {
+    "id": "abelardo-delaespriella",
+    "name": "Abelardo de la Espriella",
+    "sector": "Derecha",
+    "photo": "https://www.pares.com.co/wp-content/uploads/2025/08/Abelardo.jpg",
+    "socials": {
+      "instagram": "delaespriella_style",
+      "tiktok": "delaespriella_style",
+      "facebook": "DELAESPRIELLAstyle",
+      "x": "ABDELAESPRIELLA"
+    },
+    "followers": {
+      "instagram": 846115,
+      "tiktok": 529300,
+      "facebook": 300000,
+      "x": 150484,
+      "total": 1825899
+    },
+    "last_update": "2026-01-20",
+    "trend": "equal",
+    "last_days_growth": 0
   }
 ]
