@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
             candidatesData = candidatesData.map(c => ({
                 ...c,
-                calculatedTotal: (c.followers.instagram || 0) + (c.followers.tiktok || 0) + (c.followers.facebook || 0)
+                calculatedTotal: (c.followers.instagram || 0) + (c.followers.tiktok || 0) + (c.followers.facebook || 0) + (c.followers.x || 0)
             }));
 
             lastUpdateLabel.innerText = `Actualizado: ${candidatesData[0]?.last_update || 'Reciente'}`;
@@ -67,6 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="stat-item"><div class="stat-label">Insta</div><div class="stat-value">${formatNumber(c.followers.instagram)}</div></div>
                     <div class="stat-item"><div class="stat-label">TikTok</div><div class="stat-value">${formatNumber(c.followers.tiktok)}</div></div>
                     <div class="stat-item"><div class="stat-label">FB</div><div class="stat-value">${formatNumber(c.followers.facebook)}</div></div>
+                    <div class="stat-item"><div class="stat-label">X</div><div class="stat-value">${formatNumber(c.followers.x)}</div></div>
                 </div>
                 <div class="total-followers">
                     <div class="total-label">Total</div>
