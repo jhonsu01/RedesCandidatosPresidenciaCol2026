@@ -67,7 +67,7 @@ def scrape_facebook(client, handle):
 
 
 @app.function(
-    image=image, secrets=[secrets], schedule=modal.Period(days=1), timeout=1200
+    image=image, secrets=[secrets], schedule=modal.Period(weeks=1), timeout=1200
 )
 def update_candidates_data():
     print(f"--- Iniciando Actualización: {datetime.datetime.now()} ---")
